@@ -1,3 +1,10 @@
+/* Color Theme  
+ #4285F4
+ #1A73E8
+ #34A853 - Base
+ #FBBC05
+ #EA4335
+*/
 
 /* ---------------Box Sizing----------------- */
 
@@ -20,14 +27,14 @@ html {
   
   .img-right {
     float: right;
-    margin: 10px 0 10px 20px;
+    margin: 5px 0 10px 20px;
     border: 1px solid #c0c0c0;
-    padding: 5px;
+    padding: 2px;
   }
   
   .img-left {
     float: left;
-    margin: 10px 20px 10px 0;
+    margin: 5px 20px 10px 0;
     border: 1px solid #c0c0c0;
     padding: 5px;
   }
@@ -36,7 +43,7 @@ html {
     display: block;
     margin: 20px auto;
     border: 1px solid #c0c0c0;
-    padding: 2px;
+    padding: 5px;
   }
   
   /* ---- Responsive Images ----*/
@@ -131,7 +138,7 @@ html {
   
   header.primary nav a:hover,
   header.primary nav a:active {
-    background-color: rgba(51, 83, 107, 0.8);
+    background-color: rgba(#FBBC05);
   }
   
   /* ------------- Content --------------- */
@@ -139,7 +146,6 @@ html {
   section#content {
     padding: 4em 0;
   }
-  
   section#content h2 {
     font-family: "Goldman", cursive;
     font-size: 2.2em;
@@ -149,7 +155,7 @@ html {
   /* ------------- Articles --------------- */
   
   section#articles {
-    background: #181c1f;
+    background: #1576c0;
   }
   
   section#articles .container {
@@ -308,7 +314,7 @@ html {
     }
   
     header.primary nav ul li {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       width: 400px;
     }
   
@@ -330,4 +336,3 @@ html {
       margin-bottom: 2em;
     }
   }
-  
